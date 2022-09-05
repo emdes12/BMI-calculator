@@ -1,13 +1,36 @@
+
 const heightFt = document.querySelector("#height-feet");
+
 const heightIn = document.querySelector("#height-inch");
+
 const weight = document.querySelector("#weight");
+
 const submitBtn = document.querySelector("#submit");
 
-heightIn.oninput = function () {
-  heightFt.vaule = eval(this.value * 0.833)
-}
+const resultDisp = document.querySelector("h2");
 
+heightIn.oninput = function () {
+
+  heightFt.value = eval(this.value * 0.833)
+
+}
 
 heightFt.oninput = function () {
-  heightIn.vaule = eval(this.value / 0.833)
+
+  heightIn.value = eval(this.value / 0.833)
+
 }
+
+submitBtn.onclick = function () {
+
+  resultDisp.textContent += ": " + eval(weight.value / (heightIn.value * heightIn.value)) + "km/m2";
+
+}
+
+
+
+
+
+
+
+
