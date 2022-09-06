@@ -23,14 +23,6 @@ heightFt.oninput = function () {
 
 submitBtn.onclick = function (e) {
   e.preventDefault();
-  resultDisp.innerHTML  =` BMI RESULT: ${eval(weight.value / (heightIn.value * heightIn.value))} km/m<sup>2</sup>`;
+  resultDisp.innerHTML  =` BMI RESULT: ${eval(weight.value / ((heightIn.value/39.3701) * (heightIn.value/39.3701)))} kg/m<sup>2</sup>`;
 
 }
-
-
-
-
-
-
-
-
