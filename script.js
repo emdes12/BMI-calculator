@@ -11,13 +11,13 @@ const resultDisp = document.querySelector("h2");
 
 heightIn.oninput = function () {
 
-  heightFt.value = eval(this.value * 0.0833333)
+  heightFt.value = eval(this.value / 12)
 
 }
 
 heightFt.oninput = function () {
 
-  heightIn.value = eval(this.value / 0.0833333)
+  heightIn.value = eval(this.value * 12)
 
 }
 
