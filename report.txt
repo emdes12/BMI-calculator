@@ -1,0 +1,5 @@
+Your code is not functional.
+Ensure you maintain proper folder structures always.
+Add proper comments to your js code. This would server as proper documentation to other developers.
+
+UI is not properly implemented.
