@@ -3,3 +3,6 @@ Ensure you maintain proper folder structures always.
 Add proper comments to your js code. This would server as proper documentation to other developers.
 
 UI is not properly implemented.
+
+
+I was not with my laptop, everything was made with phone using apk apps. 
